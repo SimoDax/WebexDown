@@ -1,6 +1,6 @@
 # WebexDown
 
-## Saves Microsoft Stream videos uploaded by Politecnico di Milano.
+## Saves Webex recordings uploaded by Politecnico di Milano.
 
 This project is a port of https://github.com/sup3rgiu/PoliDown from MS Stream to Webex
 
@@ -9,7 +9,6 @@ This project is a port of https://github.com/sup3rgiu/PoliDown from MS Stream to
 ## PREREQS
 
 * [**Node.js**](https://nodejs.org/it/download/): anything above v8.0 seems to work.
-* **[NO MORE REQUIRED]** ~~[**youtube-dl**](https://ytdl-org.github.io/youtube-dl/download.html): you'll need a fairly recent version that understands encrypted HLS streams. This needs to be in your `$PATH` (for example, copy youtube-dl.exe to c:\windows). WebexDown calls `youtube-dl` with a bunch of arguments.~~
 * [**aria2**](https://github.com/aria2/aria2/releases): this needs to be in your `$PATH` (for example, copy aria2c.exe to c:\windows). WebexDown calls `aria2c` with a bunch of arguments in order to improve the download speed.
 * [**ffmpeg**](https://www.ffmpeg.org/download.html): a recent version (year 2019 or above), in [`$PATH`](https://www.thewindowsclub.com/how-to-install-ffmpeg-on-windows-10). On Windows, the [nightly build](https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20200309-608b8a8-win64-static.zip) is recommended.
 
