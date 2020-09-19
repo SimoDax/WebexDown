@@ -1,0 +1,21 @@
+{
+  "name": "webexdown",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simo_dax/webexdown.git"
+  },
+  "version": "1.0.0",
+  "description": "Save Webex videos uploaded by Politecnico di Milano.",
+  "main": "webexdown.js",
+  "keywords": [],
+  "author": "simo_dax",
+  "license": "MIT",
+  "dependencies": {
+    "keytar": "^5.4.0",
+    "puppeteer-core": "5.3.0",
+    "terminal-kit": "^1.26.10",
+    "yargs": "^15.0.3",
+    "chromium-all-codecs-bin": "0.1.0",
+    "find": "0.3.0"
+  }
+}
