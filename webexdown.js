@@ -313,7 +313,7 @@ async function run() {
 }
 
 
-term.brightBlue(`Project derived from https://github.com/sup3rgiu/PoliDown\nPorted to Cisco Webex by @simo_dax\n\n`);
+term.brightBlue(`Project derived from https://github.com/sup3rgiu/PoliDown\nPorted to Cisco Webex by @SimoDax\n\n`);
 sanityChecks();
 
 run();

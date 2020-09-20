@@ -2,13 +2,13 @@
   "name": "webexdown",
   "repository": {
     "type": "git",
-    "url": "git://github.com/simo_dax/webexdown.git"
+    "url": "git://github.com/SimoDax/webexdown.git"
   },
   "version": "1.0.0",
   "description": "Save Webex videos uploaded by Politecnico di Milano.",
   "main": "webexdown.js",
   "keywords": [],
-  "author": "simo_dax",
+  "author": "SimoDax",
   "license": "MIT",
   "dependencies": {
     "keytar": "^5.4.0",

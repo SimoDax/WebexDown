@@ -66,7 +66,7 @@ You can omit the password argument. WebexDown will ask for it interactively and 
 
 ```
 Project derived from https://github.com/sup3rgiu/PoliDown
-Ported to Cisco Webex by @simo_dax
+Ported to Cisco Webex by @SimoDax
 
 Using aria2 version 1.35.0
 Using ffmpeg version git-2020-03-09-608b8a8 Copyright (c) 2000-2020 the FFmpeg developers
