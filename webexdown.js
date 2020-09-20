@@ -97,17 +97,17 @@ async function downloadVideo(videoUrls, usernameEmail, username, password, outpu
             }
         }
     }
-    console.log('\nLaunching headless Chrome to perform the OpenID Connect dance...');
+    console.log('\nLaunching Chromium to perform the OpenID Connect dance...');
+    console.log('This program will control the window, You don\'t need to do anything');
 
     const browser = await puppeteer.launch({
-        // Switch to false if you need to login interactively
+        // If headless Cisco js refuses to load the player.. I hate client-side rendering
         headless: false,
-        executablePath: find.fileSync('chrome.exe', 'node_modules\\chromium-all-codecs-bin\\.local-chromium-all-codecs')[0],
+        executablePath: find.fileSync('chrome.exe', 'node_modules\\chromium-all-codecs-bin\\.local-chromium-all-codecs')[0],    // Again, without codecs the page js won't load the player
         defaultViewport: {
             width: 1280,
             height: 720
         },
-        //    args: ['--disable-dev-shm-usage', '--lang=it-IT', '--disable-web-security']
         args: ['--disable-dev-shm-usage', '--lang=it-IT']
     });
 
